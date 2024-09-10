@@ -12,7 +12,7 @@ from reportlab.lib.units import inch
 # URL and local file details
 MITRE_ATTACK_URL = "https://github.com/mitre/cti/raw/master/enterprise-attack/enterprise-attack.json"
 LOCAL_JSON_FILE = "enterprise-attack.json"
-FILE_EXPIRATION_DAYS = 30
+FILE_EXPIRATION_DAYS = 90
 
 # Function to check if the JSON file exists and is older than 30 days
 def check_and_download_mitre_data():
