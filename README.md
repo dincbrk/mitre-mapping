@@ -20,9 +20,10 @@ This project is a Python application that analyzes Bash command history and maps
 ## Usage
    ```bash
    python mitre-mapping.py --file bash_history_file_path --output output_file_name
-
+   ```
 ## Example
 
    ```bash
    python3 mitre-mapping.py -f .zsh_history -o report
    python3 mitre-mapping.py --file .zsh_history --output report
+   ```
